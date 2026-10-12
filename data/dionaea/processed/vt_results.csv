@@ -1,0 +1,11 @@
+sha256_hash,detection_rate,malicious_count,total_engines,is_malicious,severity,threat_label,file_type
+ccb8ef19076d6d95c1582a4a0d7475c891f186be42c2e6226fc7906c27794522,42.11,32,76,True,CRITICAL,"{'count': 2, 'value': 'filerepmalware'}",Win32 EXE
+c0b819c99f9b81df1192f2e9ca22caf853d36c3d48c8ed11d75a87cc40df99cd,58.67,44,75,True,CRITICAL,"{'value': 'salat', 'count': 8}",RAR
+f918407cf4c75dafccfd5fe4a00e31faf13d7b47d1c7cd678da5974f4f991049,29.33,22,75,True,CRITICAL,"{'value': 'java', 'count': 10}",JAR
+6c701d0cb78138c17a4421173aa01563a9a3196227bf03d5f4dac4e4c05f28fc,38.16,29,76,True,CRITICAL,"{'value': 'mirai', 'count': 15}",ELF
+aa708f7a308c80e5de86ba11ff88ef666d19bdb150280c0ecd24a7428242d179,29.33,22,75,True,CRITICAL,"{'value': 'java', 'count': 11}",JAR
+9cce05c0f48011c170f0b6a8bf7ca61cb6dfe02e6afa5859ff7090c688d49a90,32.0,24,75,True,CRITICAL,"{'count': 4, 'value': 'boogr'}",Android
+bc2a50906c59fdb0e7109274e322d2f8225600b456935d256b45c554975628d1,21.33,16,75,True,HIGH,"{'count': 3, 'value': 'boogr'}",Android
+83f87364e05ff509464d246cb7969f7b05e12f4ee4daaf741cc331cb92dc5025,18.67,14,75,True,HIGH,"{'value': 'dnotua', 'count': 2}",Android
+2d8e362fc9ec5e45d11b7275e53f91bfd79a258f5d89df780cddc650dbdf1fa3,40.79,31,76,True,CRITICAL,"{'value': 'mirai', 'count': 14}",ELF
+a84b4544c37bc2b6426c5c0a5970038f1858f2cd8f4c76723cfac0d7e034618c,57.89,44,76,True,CRITICAL,"{'value': 'mirai', 'count': 21}",ELF
