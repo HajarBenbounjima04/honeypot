@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+
+# Gros fichiers de données brutes
+data/*/raw/
