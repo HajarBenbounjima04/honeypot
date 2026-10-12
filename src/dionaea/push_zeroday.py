@@ -30,10 +30,13 @@ for _, row in df.iterrows():
     doc = {
         'sha256_hash': sha256,
         'md5_hash': str(row.get('md5_hash', '')),
+        'sha1_hash': str(row.get('sha1_hash', '')),
         'file_name': str(row.get('file_name', '')),
         'file_type': str(row.get('file_type', '')),
         'source_ip': str(row.get('source_ip', '')),
         'timestamp': str(row.get('timestamp', datetime.now().isoformat())),
+        'honeypot': str(row.get('honeypot', '')),
+        'signature': str(row.get('signature', '')),
         'is_zero_day_candidate': is_zero_day,
         'status': 'ZERO_DAY_CANDIDATE' if is_zero_day else 'KNOWN_MALWARE',
         '@timestamp': datetime.now().isoformat()
